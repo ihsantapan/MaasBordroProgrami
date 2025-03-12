@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaasBordroProgrami", "MaasBordroProgrami\MaasBordroProgrami.csproj", "{C78EFE67-D321-4824-A72D-1A128BFCD566}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "Program\Program.csproj", "{E41A3B4C-9D65-4151-90B4-DF3EABD31746}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C78EFE67-D321-4824-A72D-1A128BFCD566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C78EFE67-D321-4824-A72D-1A128BFCD566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C78EFE67-D321-4824-A72D-1A128BFCD566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41A3B4C-9D65-4151-90B4-DF3EABD31746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41A3B4C-9D65-4151-90B4-DF3EABD31746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41A3B4C-9D65-4151-90B4-DF3EABD31746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41A3B4C-9D65-4151-90B4-DF3EABD31746}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
