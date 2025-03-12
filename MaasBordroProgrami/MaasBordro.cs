@@ -19,7 +19,7 @@ namespace MaasBordroProgrami
 
                 string dosyaYolu = Path.Combine(personelKlasoru, "bordro.json");
 
-                decimal anaOdeme = personel.MaasHesapla((int)personel.SaatlikUcret);
+                decimal anaOdeme = personel.MaasHesapla(personel.CalismaSuresi);
                 decimal mesaiOdeme = personel.MesaiHesapla();
                 decimal toplamOdeme = anaOdeme + mesaiOdeme;
 

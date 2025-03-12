@@ -17,23 +17,23 @@ namespace MaasBordroProgrami
             SaatlikUcret = 500 * Derece;
         }
 
-        public override decimal MaasHesapla(int saatlikUcret)
+        public override decimal MaasHesapla(int calismaSuresi)
         {
             decimal yapilacakOdeme;
 
             if (CalismaSuresi <= 180)
             {
-                yapilacakOdeme = saatlikUcret * CalismaSuresi;
-
+                yapilacakOdeme = calismaSuresi * SaatlikUcret;
                 return yapilacakOdeme;
             }
             else
             {
                 decimal mesaiUcreti = MesaiHesapla();
-                decimal odeme = saatlikUcret * 180;
+                decimal odeme = calismaSuresi * 180;
                 decimal toplamOdeme = mesaiUcreti + odeme;
                 return toplamOdeme;
             }
+           
         }
     }
 }
